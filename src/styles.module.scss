@@ -1,0 +1,46 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.member {
+  cursor: pointer;
+
+  &.male {
+    &:hover {
+      background-color: #41ADED;
+    }
+  }
+
+  &.female {
+    &:hover {
+      background-color: #DE3163;
+    }
+  }
+}
+
+.memberDetails {
+  margin-left: 25px;
+
+
+  .partnerInfo {
+    margin-bottom: 5px;
+  }
+  
+  .dateOfBirthInfo {
+    margin-bottom: 5px;
+  }
+
+  .childrenInfo {
+    margin-bottom: 5px;
+  }
+}
